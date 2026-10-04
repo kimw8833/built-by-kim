@@ -49,3 +49,33 @@ a {
 a:hover {
     text-decoration-thickness: 2px;
 }
+
+.site-nav {
+    max-width: 800px;
+    margin: 24px auto 0;
+    padding: 0 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.site-nav a {
+    text-decoration: none;
+}
+
+.site-nav a:hover {
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.project-tech {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.project-status {
+    font-size: 0.85rem;
+    font-weight: bold;
+}

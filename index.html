@@ -8,6 +8,12 @@
 </head>
 
 <body>
+    <nav class="site-nav">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
     <main>
 
         <header class="hero">
@@ -19,39 +25,52 @@
             </p>
         </header>
 
-        <section class="projects">
+        <section class="projects" id="projects">
             <h2>Projects</h2>
 
             <div class="project-list">
                 <article class="project-card">
                     <h3>Rexlet</h3>
                     <p>Python transaction processing project.</p>
+                    <p class="project-status">Active project</p>
+                    <p class="project-tech">Python · SQLAlchemy · SQLite · pytest</p>
+                    <a href="https://github.com/kimw8833/rexlet">View on GitHub</a>
                 </article>
 
                 <article class="project-card">
                     <h3>Built by Kim</h3>
                     <p>Personal portfolio built from the ground up</p>
+                    <p class="project-tech">HTML · CSS · Git</p>
+                    <p class="project-status">In development</p>
+                    <a href="https://github.com/kimw8833/built-by-kim">View on GitHub</a>
                 </article>
             </div>
         </section>
 
-        <section class="about">
+        <section class="about" id="about">
             <h2>About</h2>
 
             <p>
+                I am a software engineer with an
                 M.Sc. in Computer and Information Engineering.
-                I enjoy building systems, connecting components,
-                and understanding how things work underneath.
+                I am particulary interested in backend systems, data engineering,
+                infrastructure, and system integration.
+            </p>
+            
+            <p>
+                I enjoy understanding how different parts of a system
+                fit together, building reliable software, and turning technical
+                problems into practical solutions.
             </p>
         </section>
 
-        <section class="contact">
+        <section class="contact" id="contact">
             <h2>Contact</h2>
 
             <p>
-                GitHub:
+                You can find my projects and ongoning work on
                 <a href="https://github.com/kimw8833">
-                    github.com/kimw8833
+                    GitHub
                 </a>
             </p>
         </section>    
