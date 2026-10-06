@@ -79,3 +79,18 @@ html {
     font-size: 0.85rem;
     font-weight: bold;
 }
+
+.skills-list{
+    display: grid;
+    gap: 16px;
+}
+
+.skills-list div{
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.skills-list h3 {
+    margin-top: 0;
+}
