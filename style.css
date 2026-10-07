@@ -94,3 +94,24 @@ html {
 .skills-list h3 {
     margin-top: 0;
 }
+
+.experience-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: baseline;
+}
+
+.experience-header h3 {
+    margin: 0;
+}
+
+.experience-header span {
+    color: #666;
+}
