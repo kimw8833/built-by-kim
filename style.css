@@ -120,3 +120,8 @@ a:focus-visible {
     outline: 2px solid currentColor;
     outline-offset: 4px;
 }
+
+p {
+    max-width: 65ch;
+    overflow-wrap: break-word;
+}
