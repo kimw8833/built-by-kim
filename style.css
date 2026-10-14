@@ -125,3 +125,9 @@ p {
     max-width: 65ch;
     overflow-wrap: break-word;
 }
+
+@media (max-width: 600px) {
+    main {
+        margin: 24px auto;
+    }
+}
