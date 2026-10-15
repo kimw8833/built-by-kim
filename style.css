@@ -131,3 +131,7 @@ p {
         margin: 24px auto;
     }
 }
+
+a {
+    transition: color 0.2s ease;
+}
