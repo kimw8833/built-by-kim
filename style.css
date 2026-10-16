@@ -135,3 +135,9 @@ p {
 a {
     transition: color 0.2s ease;
 }
+
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+}
