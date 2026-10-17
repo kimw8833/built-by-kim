@@ -141,3 +141,7 @@ a {
         font-size: 1.8rem;
     }
 }
+
+.project-card:hover {
+    border-color: #999;
+}
