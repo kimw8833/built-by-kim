@@ -145,3 +145,8 @@ a {
 .project-card:hover {
     border-color: #999;
 }
+
+::selection {
+    background-color: #e0e0e0;
+    color: #222;
+}
