@@ -150,3 +150,7 @@ a {
     background-color: #e0e0e0;
     color: #222;
 }
+
+.project-card p:last-child {
+    margin-bottom: 0;
+}
