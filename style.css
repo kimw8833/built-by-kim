@@ -178,3 +178,7 @@ button {
     cursor: pointer;
     font: inherit;
 }
+
+.project-card {
+    box-sizing: border-box;
+}
