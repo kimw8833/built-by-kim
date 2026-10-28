@@ -182,3 +182,9 @@ button {
 .project-card {
     box-sizing: border-box;
 }
+
+@media (max-width: 600px) {
+    body {
+        font-size: 15px;
+    }
+}
