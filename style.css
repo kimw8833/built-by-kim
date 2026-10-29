@@ -188,3 +188,7 @@ button {
         font-size: 15px;
     }
 }
+
+section {
+    scroll-margin-top: 24px;
+}
