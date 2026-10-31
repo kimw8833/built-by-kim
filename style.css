@@ -196,3 +196,7 @@ section {
 .project-card h3 {
     margin-bottom: 12px;
 }
+
+.project-card:hover {
+    background-color: #fafafa;
+}
