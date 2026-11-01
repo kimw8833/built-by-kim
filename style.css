@@ -200,3 +200,7 @@ section {
 .project-card:hover {
     background-color: #fafafa;
 }
+
+a {
+    text-decoration-skip-ink: auto;
+}
