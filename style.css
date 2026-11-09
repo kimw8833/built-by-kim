@@ -214,3 +214,8 @@ footer {
     color: #666;
     font-size: 0.9rem;
 }
+
+footer {
+    border-top: 1px solid #eee;
+    margin-top: 48px;
+}
